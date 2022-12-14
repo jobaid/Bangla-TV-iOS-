@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import OneSignal
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,7 +15,37 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+      
+        OneSignal.setLogLevel(.LL_VERBOSE, visualLevel: .LL_NONE)
+        
+        OneSignal.initWithLaunchOptions(launchOptions, appId: "d186a243-b207-4754-8047-282585229bac", handleNotificationReceived: { (notification) in
+            print("Received Notification - \(notification?.payload.notificationID)")
+            }, handleNotificationAction: { (result) in
+                
+                // This block gets called when the user reacts to a notification received
+                let payload = result?.notification.payload
+                var fullMessage = payload?.title
+                
+                //Try to fetch the action selected
+                if let actionSelected = result?.action.actionID {
+                    fullMessage =  fullMessage! + "\nPressed ButtonId:\(actionSelected)"
+                }
+                
+                print(fullMessage)
+                
+            }, settings: [kOSSettingsKeyAutoPrompt : true, kOSSettingsKeyInAppAlerts : true])
+        
+        OneSignal.registerForPushNotifications()
+        
+        OneSignal.IdsAvailable({ (userId, pushToken) in
+            print("UserId:%@", userId)
+            if (pushToken != nil) {
+                print("pushToken:%@", pushToken)
+            }
+        })
+        
+        
+        
         return true
     }
 

@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		4A3178801D9B04940021E47C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31787F1D9B04940021E47C /* AppDelegate.swift */; };
-		4A3178821D9B04940021E47C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3178811D9B04940021E47C /* ViewController.swift */; };
-		4A3178851D9B04940021E47C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3178831D9B04940021E47C /* Main.storyboard */; };
 		4A3178871D9B04940021E47C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3178861D9B04940021E47C /* Assets.xcassets */; };
 		4A31788A1D9B04940021E47C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3178881D9B04940021E47C /* LaunchScreen.storyboard */; };
 		4A3178951D9B04940021E47C /* Bangla_TVUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3178941D9B04940021E47C /* Bangla_TVUITests.swift */; };
+		4A3178A71D9B04B20021E47C /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3178A01D9B04B20021E47C /* Assets */; };
+		4A3178A81D9B04B20021E47C /* internet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3178A11D9B04B20021E47C /* internet.swift */; };
+		4A3178AA1D9B04B20021E47C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3178A31D9B04B20021E47C /* PlayerViewController.swift */; };
+		4A3178AB1D9B04B20021E47C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3178A41D9B04B20021E47C /* ViewController.swift */; };
+		4A3178AC1D9B04B20021E47C /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A3178A61D9B04B20021E47C /* YTPlayerView.m */; };
+		4AE6A3E61DD2578100200173 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AE6A3E51DD2578100200173 /* SystemConfiguration.framework */; };
+		4AE9FE421DA2B63100EEA4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AE9FE411DA2B63100EEA4A4 /* Main.storyboard */; };
+		A9A6440F31DCAEA7A1764ACB /* Pods_Bangla_TV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0C274A660546204E580323 /* Pods_Bangla_TV.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +34,26 @@
 /* Begin PBXFileReference section */
 		4A31787C1D9B04940021E47C /* Bangla TV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bangla TV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A31787F1D9B04940021E47C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4A3178811D9B04940021E47C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4A3178841D9B04940021E47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A3178861D9B04940021E47C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3178891D9B04940021E47C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A31788B1D9B04940021E47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A3178901D9B04940021E47C /* Bangla TVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bangla TVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3178941D9B04940021E47C /* Bangla_TVUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bangla_TVUITests.swift; sourceTree = "<group>"; };
 		4A3178961D9B04940021E47C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A31789F1D9B04B20021E47C /* Bangla TV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bangla TV-Bridging-Header.h"; sourceTree = "<group>"; };
+		4A3178A01D9B04B20021E47C /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		4A3178A11D9B04B20021E47C /* internet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = internet.swift; sourceTree = "<group>"; };
+		4A3178A31D9B04B20021E47C /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		4A3178A41D9B04B20021E47C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A3178A51D9B04B20021E47C /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		4A3178A61D9B04B20021E47C /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		4AE6A3E41DD232F000200173 /* Bangla TV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Bangla TV.entitlements"; sourceTree = "<group>"; };
+		4AE6A3E51DD2578100200173 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4AE9FE411DA2B63100EEA4A4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7B6EEDBE845B348A45A7A782 /* Pods-Bangla TV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bangla TV.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bangla TV/Pods-Bangla TV.release.xcconfig"; sourceTree = "<group>"; };
+		8593B6DAB7EA0595A819DD03 /* Pods-Bangla TV.distribution.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bangla TV.distribution.xcconfig"; path = "Pods/Target Support Files/Pods-Bangla TV/Pods-Bangla TV.distribution.xcconfig"; sourceTree = "<group>"; };
+		CA0C274A660546204E580323 /* Pods_Bangla_TV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bangla_TV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F531C6BAAAFC00D0857476A4 /* Pods-Bangla TV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bangla TV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bangla TV/Pods-Bangla TV.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +61,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE6A3E61DD2578100200173 /* SystemConfiguration.framework in Frameworks */,
+				A9A6440F31DCAEA7A1764ACB /* Pods_Bangla_TV.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +76,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2364C4DA90A8BE6391457C53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F531C6BAAAFC00D0857476A4 /* Pods-Bangla TV.debug.xcconfig */,
+				7B6EEDBE845B348A45A7A782 /* Pods-Bangla TV.release.xcconfig */,
+				8593B6DAB7EA0595A819DD03 /* Pods-Bangla TV.distribution.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4A3178731D9B04940021E47C = {
 			isa = PBXGroup;
 			children = (
 				4A31787E1D9B04940021E47C /* Bangla TV */,
 				4A3178931D9B04940021E47C /* Bangla TVUITests */,
 				4A31787D1D9B04940021E47C /* Products */,
+				2364C4DA90A8BE6391457C53 /* Pods */,
+				60BEEF55CE93F790323A837B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +109,19 @@
 		4A31787E1D9B04940021E47C /* Bangla TV */ = {
 			isa = PBXGroup;
 			children = (
+				4AE6A3E41DD232F000200173 /* Bangla TV.entitlements */,
 				4A31787F1D9B04940021E47C /* AppDelegate.swift */,
-				4A3178811D9B04940021E47C /* ViewController.swift */,
-				4A3178831D9B04940021E47C /* Main.storyboard */,
 				4A3178861D9B04940021E47C /* Assets.xcassets */,
+				4A3178A01D9B04B20021E47C /* Assets */,
+				4A3178A11D9B04B20021E47C /* internet.swift */,
+				4A3178A31D9B04B20021E47C /* PlayerViewController.swift */,
+				4A3178A41D9B04B20021E47C /* ViewController.swift */,
+				4AE9FE411DA2B63100EEA4A4 /* Main.storyboard */,
+				4A3178A51D9B04B20021E47C /* YTPlayerView.h */,
+				4A3178A61D9B04B20021E47C /* YTPlayerView.m */,
 				4A3178881D9B04940021E47C /* LaunchScreen.storyboard */,
 				4A31788B1D9B04940021E47C /* Info.plist */,
+				4A31789F1D9B04B20021E47C /* Bangla TV-Bridging-Header.h */,
 			);
 			path = "Bangla TV";
 			sourceTree = "<group>";
@@ -96,6 +135,15 @@
 			path = "Bangla TVUITests";
 			sourceTree = "<group>";
 		};
+		60BEEF55CE93F790323A837B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AE6A3E51DD2578100200173 /* SystemConfiguration.framework */,
+				CA0C274A660546204E580323 /* Pods_Bangla_TV.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +151,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A3178991D9B04940021E47C /* Build configuration list for PBXNativeTarget "Bangla TV" */;
 			buildPhases = (
+				671393ABDF22147637B5EC13 /* [CP] Check Pods Manifest.lock */,
 				4A3178781D9B04940021E47C /* Sources */,
 				4A3178791D9B04940021E47C /* Frameworks */,
 				4A31787A1D9B04940021E47C /* Resources */,
+				5DC0A315784275D89D8EAF9A /* [CP] Embed Pods Frameworks */,
+				E53C2C3EC411667881365EED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,14 +192,26 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = Jobaid;
 				TargetAttributes = {
 					4A31787B1D9B04940021E47C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 7D9W5TP52Z;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					4A31788F1D9B04940021E47C = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 4A31787B1D9B04940021E47C;
 					};
 				};
@@ -178,8 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A31788A1D9B04940021E47C /* LaunchScreen.storyboard in Resources */,
+				4A3178A71D9B04B20021E47C /* Assets in Resources */,
 				4A3178871D9B04940021E47C /* Assets.xcassets in Resources */,
-				4A3178851D9B04940021E47C /* Main.storyboard in Resources */,
+				4AE9FE421DA2B63100EEA4A4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,13 +256,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5DC0A315784275D89D8EAF9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bangla TV/Pods-Bangla TV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		671393ABDF22147637B5EC13 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E53C2C3EC411667881365EED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bangla TV/Pods-Bangla TV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A3178781D9B04940021E47C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4A3178821D9B04940021E47C /* ViewController.swift in Sources */,
+				4A3178A81D9B04B20021E47C /* internet.swift in Sources */,
 				4A3178801D9B04940021E47C /* AppDelegate.swift in Sources */,
+				4A3178AB1D9B04B20021E47C /* ViewController.swift in Sources */,
+				4A3178AC1D9B04B20021E47C /* YTPlayerView.m in Sources */,
+				4A3178AA1D9B04B20021E47C /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,14 +336,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4A3178831D9B04940021E47C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4A3178841D9B04940021E47C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4A3178881D9B04940021E47C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -254,11 +361,14 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Next Apps (7D9W5TP52Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Next Apps (7D9W5TP52Z)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -280,6 +390,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "af0512aa-3677-446b-882c-fe4fa31def54";
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,11 +411,14 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Next Apps (7D9W5TP52Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Next Apps (7D9W5TP52Z)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -319,7 +433,9 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "af0512aa-3677-446b-882c-fe4fa31def54";
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -327,23 +443,53 @@
 		};
 		4A31789A1D9B04940021E47C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F531C6BAAAFC00D0857476A4 /* Pods-Bangla TV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Bangla TV/Bangla TV.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Next Apps (7D9W5TP52Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7D9W5TP52Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Bangla TV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nextappsbd.Bangla-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextappsbd.banglaTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bangla TV/Bangla TV-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		4A31789B1D9B04940021E47C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B6EEDBE845B348A45A7A782 /* Pods-Bangla TV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Bangla TV/Bangla TV.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Next Apps (7D9W5TP52Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7D9W5TP52Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = "Bangla TV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.nextappsbd.Bangla-TV";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextappsbd.banglaTV;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bangla TV/Bangla TV-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -354,6 +500,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nextappsbd.Bangla-TVUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = "Bangla TV";
 			};
 			name = Debug;
@@ -365,9 +512,90 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nextappsbd.Bangla-TVUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
 				TEST_TARGET_NAME = "Bangla TV";
 			};
 			name = Release;
+		};
+		4A3178AF1D9B05770021E47C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Next Apps (7D9W5TP52Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Next Apps (7D9W5TP52Z)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "af0512aa-3677-446b-882c-fe4fa31def54";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		4A3178B01D9B05770021E47C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8593B6DAB7EA0595A819DD03 /* Pods-Bangla TV.distribution.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "Bangla TV/Bangla TV.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Next Apps (7D9W5TP52Z)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 7D9W5TP52Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Bangla TV/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nextappsbd.banglaTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bangla TV/Bangla TV-Bridging-Header.h";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Distribution;
+		};
+		4A3178B11D9B05770021E47C /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Bangla TVUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nextappsbd.Bangla-TVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = "Bangla TV";
+			};
+			name = Distribution;
 		};
 /* End XCBuildConfiguration section */
 
@@ -377,6 +605,7 @@
 			buildConfigurations = (
 				4A3178971D9B04940021E47C /* Debug */,
 				4A3178981D9B04940021E47C /* Release */,
+				4A3178AF1D9B05770021E47C /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -386,16 +615,20 @@
 			buildConfigurations = (
 				4A31789A1D9B04940021E47C /* Debug */,
 				4A31789B1D9B04940021E47C /* Release */,
+				4A3178B01D9B05770021E47C /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4A31789C1D9B04940021E47C /* Build configuration list for PBXNativeTarget "Bangla TVUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A31789D1D9B04940021E47C /* Debug */,
 				4A31789E1D9B04940021E47C /* Release */,
+				4A3178B11D9B05770021E47C /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
